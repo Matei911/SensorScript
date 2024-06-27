@@ -16,7 +16,7 @@ def simulate_air_quality():
     return round(random.uniform(0.0, 100.0), 2)
 
 # MQTT Configuration
-mqtt_broker = "82.78.81.188"
+mqtt_broker = "address-for-mqtt-broker"
 mqtt_port = 1883
 mqtt_topic = "/training/device/Matei-Calugaru/"
 
